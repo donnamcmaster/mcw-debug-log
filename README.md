@@ -6,20 +6,18 @@ WordPress plugin to support error logging.
 - configures the log file location
 - includes a function mcw_log for printing debug information to the log
 
-<<<<<<< HEAD
 # Usage 
  
 In order to set the debug log and enable logging, this plugin must be run as a "must-use" plugin. To do this, place the mcw-debug-log.php file in a folder called "mu-plugins" in the wp-content directory, at the same level as the plugins folder.
 
 NOTE: We do note recommend putting any of the other files in the distribution into your mu-plugins folder. 
-=======
+
 # Usage
 
 In order to set the debug log and enable logging, this plugin must be
 run as a "must-use" plugin. To do this, place the php file in a folder
 called "mu-plugins" in the wp-content directory, at the same level as 
 the plugins folder. 
->>>>>>> master
 
 # Configuration
 
@@ -29,7 +27,6 @@ See the wp-config-additions.php file in this distro for an example of some debug
 
 If MCW\_DEBUG\_LOG\_FILE is not initialized, errors will be logged to a file named mcw-debug.log in your wp-content directory. 
  
-<<<<<<< HEAD
 # Logging Function
 
 Function mcw\_log() can be called with single item (e.g., string or integer), or with a complex item (array or object). 
@@ -45,11 +42,3 @@ https://gist.github.com/webaware/4969753
 
 Relevant discussion:  
 http://wordpress.stackexchange.com/questions/84132/is-it-possible-to-change-the-log-file-location-for-wp-debug-log 
-=======
-# Credits and More Information
-
-inspiration from: 
-https://gist.github.com/webaware/4969753
-relevant discussion: 
-http://wordpress.stackexchange.com/questions/84132/is-it-possible-to-change-the-log-file-location-for-wp-debug-log
->>>>>>> master
