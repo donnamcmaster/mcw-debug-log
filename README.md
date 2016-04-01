@@ -1,7 +1,6 @@
 # McWebby Debug Log
 
 WordPress plugin to support error logging. 
-
 - enables PHP logging
 - configures the log file location
 - includes a function mcw_log for printing debug information to the log
@@ -10,14 +9,7 @@ WordPress plugin to support error logging.
  
 In order to set the debug log and enable logging, this plugin must be run as a "must-use" plugin. To do this, place the mcw-debug-log.php file in a folder called "mu-plugins" in the wp-content directory, at the same level as the plugins folder.
 
-NOTE: We do note recommend putting any of the other files in the distribution into your mu-plugins folder. 
-
-# Usage
-
-In order to set the debug log and enable logging, this plugin must be
-run as a "must-use" plugin. To do this, place the php file in a folder
-called "mu-plugins" in the wp-content directory, at the same level as 
-the plugins folder. 
+NOTE: We do not recommend putting any of the other files in the distribution into your mu-plugins folder. 
 
 # Configuration
 
